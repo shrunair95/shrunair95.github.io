@@ -1,23 +1,116 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Shruti Nair</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		
-		<footer>
-    		<ul>
-        		<li><a href="mailto:nairshru.95@gmail.com">email</a></li>
-        		<li><a href="https://github.com/shrunair95">github.com/shrunair95</a></li>
-			</ul>
-		</footer>
-	</body>
+  <head>
+    <title>ShrutiNair</title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">      
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+      
+    <style>
+      html {
+        background: #528491;
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-transform: uppercase;
+      }
+    .circular {
+    margin: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	
+    background-size: 270px 200px;
+	}
+      h1 {
+        background: #FF0000;
+        border-radius: 0.3rem;
+        padding: 0.3rem 0.5rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin: 0;
+      }
+      .clover {
+        height: 2.9rem;
+        width: 2.9rem;
+        margin: 0.1rem 1.1rem;
+      }
+      #top * {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5rem;
+      }
+      #bop {
+        margin-top: 0.8rem;
+        font-size: 0.85rem;
+      }
+      #fop {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2rem;
+        padding-bottom: 1rem;
+        transform: scale(0.75,0.75);
+      }
+      #fop img {
+        height: 2rem;
+        margin: 0 0.6rem;
+      }
+      #fop img#twitter {
+        height: 1.5rem;
+        margin-bottom: 0.25rem;
+      }
+      .dot:before {
+        content: " / ";
+        color: #E9423A;
+      }
+      @media (max-width: 321px) {
+        #fop {
+          position: static;
+          margin-top: 5rem;
+        }
+        #fop img {
+          height: 3rem;
+          margin: 0 1rem;
+        }
+        #fop img#twitter {
+          height: 2.5rem;
+          margin-bottom: 0.25rem;
+        }
+      }
+      @media (min-width: 320px) {
+        html {
+          font-size: 10px;
+        }
+      }
+      @media (min-width: 320px) and (orientation: landscape) {
+        html {
+          font-size: 15px;
+        }
+      }
+      @media (min-width: 589px) {
+        html {
+          font-size: 20px;
+        }
+      }
+      @media (min-width: 733px) {
+        html {
+          font-size: 25px;
+        }
+      }
+      @media (min-width: 870px) {
+        html {
+          font-size: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center id='top'><h1>Shruti&nbsp;Nair</h1></center>
+    <center id='bop'>Aspiring Developer<span class='dot'></span>Generalist<span class='dot'></span>Polyglot Programmer</center>
+    <div class="circular"></div>
+    <center id='fop'><a href='https://github.com/shrunair95/'><img src='github.png'></a><a href='https://www.linkedin.com/in/shrutina'><img src='linkedin.png'></a></center>
+  </body>
 </html>
